@@ -14,6 +14,27 @@ and sending them to the OpenAI ChatCompletion endpoint.
 """
 
 
+
+"""
+Important Note:
+
+- The climate .nc file is quite large and can not be uploaded on the 
+    Github!
+
+- The .nc file that is used in this code is saved here: https://zenodo.org/records/14979073
+
+- You can also downlaod your favorite climate dataset from publicaly available website, and 
+    apply the approapriate preprocessing steps.
+    You can find more about the application of this dataset in the following article:
+
+    " Climate Aware Deep Neural Networks (CADNN) for Wind Power Simulation": https://arxiv.org/abs/2412.12160
+    Github repository: https://github.com/Ali-Forootani/neural_wind_model/tree/main
+"""
+
+
+
+
+
 import numpy as np
 import sys
 import os
@@ -94,21 +115,6 @@ warnings.filterwarnings("ignore")
 # ----------------------------------------------------------------
 
 
-"""
-Important Note:
-
-- The climate .nc file is quite large and can not be uploaded on the 
-    Github!
-
-- The .nc file that is used in this code is saved here: https://zenodo.org/records/14979073
-
-- You can also downlaod your favorite climate dataset from publicaly available website, and 
-    apply the approapriate preprocessing steps.
-    You can find more about the application of this dataset in the following article:
-
-    " Climate Aware Deep Neural Networks (CADNN) for Wind Power Simulation": https://arxiv.org/abs/2412.12160
-    Github repository: https://github.com/Ali-Forootani/neural_wind_model/tree/main
-"""
 
 
 
