@@ -1,6 +1,8 @@
 # Using Large Language Models (LLMs) in Control and Optimization 
 
 This repository contains a collection of Python scripts designed to solve Linear Programming (LP) optimization problems in a multi-agent environment using the AutoGen framework. It also includes an asynchronous execution framework to run LP solvers concurrently.
+These codes are part of the paper entitled `A Survey on Mathematical Reasoning and Optimization with Large Language Models' by Ali Forootani.
+
 
 ### Key Components:
 1. **AutoGen Framework**: Utilizes the AutoGen conversational agents to model the LP optimization task in multiple stages.
@@ -115,3 +117,7 @@ This repository contains a collection of Python scripts designed to solve Linear
 ## Conclusion
 
 This repository provides a flexible and scalable approach to solving optimization problems using AutoGen agents, asynchronous execution, and fuzzy logic integration. It can be extended for more complex real-world optimization tasks, including energy systems, control systems, and forecasting models.
+
+## Contact
+
+Please do not hesitate to contact us via aliforootani@ieee.org/ali.forootani@ufz.de
